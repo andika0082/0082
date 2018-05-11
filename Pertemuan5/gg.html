@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Coba Saja
+	</title>
+	<style type="text/css">
+	div.relative {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		position: relative;
+		left: 50px;
+		top: 50px;
+	}
+	div.absolute {
+		width: 0px;
+		height: 0px;
+		background-color: white;
+		position: absolute;
+		left: 100px;
+		top: 100px;
+		transition: width 2s;
+		opacity: 0.5;
+	}
+	div.absolute:hover {
+		width: 150px;
+		height: 150px;
+	}
+	div.int{
+		width: 0px;
+		height: 0px;
+		border-bottom: 50px solid blue;
+		border-right: 50px solid transparent;
+	}
+	</style>
+</head>
+<body>
+	<div class="relative">
+	<p>Obat Kuat</p>
+	</div>
+
+	<div class="absolute">
+	<p>Obat Kuat</p>
+	</div>
+
+	<div class="int"> ayam </div>
+</body>
+</html>
